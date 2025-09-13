@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "08GMd+xtN4vX3/v+IC9LeZlE/cc8LM1adpf39RhfeGo=",
+  "Source": "Criando API",
+  "BasePath": "_content/Criando API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Criando API\\wwwroot",
+      "Source": "Criando API",
+      "ContentRoot": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\",
+      "BasePath": "_content/Criando API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\favicon.ico",
+      "SourceId": "Criando API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\",
+      "BasePath": "_content/Criando API",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\index.html",
+      "SourceId": "Criando API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\",
+      "BasePath": "_content/Criando API",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\index.js",
+      "SourceId": "Criando API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Trabalhos Escola e Outros\\SENAI\\Aula APIs\\Criando API\\wwwroot\\",
+      "BasePath": "_content/Criando API",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.js"
+    }
+  ]
+}

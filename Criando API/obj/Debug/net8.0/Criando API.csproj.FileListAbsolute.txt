@@ -1,0 +1,65 @@
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\appsettings.json
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Criando API.exe
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Criando API.deps.json
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Criando API.runtimeconfig.json
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Criando API.dll
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Criando API.pdb
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\439571624\Documents\APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.csproj.AssemblyReference.cache
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.AssemblyInfoInputs.cache
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.AssemblyInfo.cs
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.csproj.CoreCompileInputs.cache
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.Criando API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.build.Criando API.props
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Criando API.props
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Criando API.props
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\scopedcss\bundle\Criando API.styles.css
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando .15DD8ABD.Up2Date
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.dll
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\refint\Criando API.dll
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.pdb
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\Criando API.genruntimeconfig.cache
+C:\Users\439571624\Documents\APIs\Criando API\obj\Debug\net8.0\ref\Criando API.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\appsettings.Development.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\appsettings.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.staticwebassets.runtime.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.exe
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.deps.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.runtimeconfig.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Criando API.pdb
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.csproj.AssemblyReference.cache
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.AssemblyInfoInputs.cache
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.AssemblyInfo.cs
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.csproj.CoreCompileInputs.cache
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.MvcApplicationPartsAssemblyInfo.cs
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.MvcApplicationPartsAssemblyInfo.cache
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.Criando API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.build.Criando API.props
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Criando API.props
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Criando API.props
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\scopedcss\bundle\Criando API.styles.css
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando .15DD8ABD.Up2Date
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\refint\Criando API.dll
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.pdb
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\Criando API.genruntimeconfig.cache
+C:\Trabalhos Escola e Outros\SENAI\Aula APIs\Criando API\obj\Debug\net8.0\ref\Criando API.dll

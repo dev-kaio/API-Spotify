@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <title>Aula sobre APIs</title>
+</head>
+
+<body style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(255, 228, 196);
+    ">
+  <!-- <button
+      id="btn"
+      style="
+        cursor: pointer;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background-color: rgb(255, 189, 108);
+      "
+    >
+      Consumir
+    </button>
+    <img
+      id="img"
+      width="500px"
+      height="500px"
+      style="border-radius: 20px; border: none"
+    />
+    <h1
+      id="nomeDog"
+      style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+    ></h1> -->
+
+  <h1>API de Usuários</h1>
+  <div style="display: flex; flex-direction: column; align-items: center">
+    <form id="formUsuario" style="display: flex; flex-direction: column">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <button type="submit" style="margin-top: 10px;">Adicionar Usuário</button>
+    </form>
+
+    <h1 id="resultado"></h1>
+  </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
