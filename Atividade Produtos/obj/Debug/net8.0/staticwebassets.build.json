@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "R4TJ5WJC0N+o55d1GZJ/ilE0+pLFcp2QrQ9E2aurOLo=",
+  "Source": "Atividade Produtos",
+  "BasePath": "_content/Atividade Produtos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Atividade Produtos\\wwwroot",
+      "Source": "Atividade Produtos",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\Atividade Produtos\\wwwroot\\",
+      "BasePath": "_content/Atividade Produtos",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
