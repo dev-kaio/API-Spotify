@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API Spotify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API Spotify.props",
+      "PackagePath": "build\\API Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API Spotify.props",
+      "PackagePath": "buildMultiTargeting\\API Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API Spotify.props",
+      "PackagePath": "buildTransitive\\API Spotify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
