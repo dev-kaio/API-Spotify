@@ -3,6 +3,7 @@ using API_Spotify.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_Spotify.Migrations
 {
     [DbContext(typeof(MusicaContext))]
-    partial class MusicaContextModelSnapshot : ModelSnapshot
+    [Migration("20251010131701_RemoveDuracaoFromMusica")]
+    partial class RemoveDuracaoFromMusica
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,55 +52,9 @@ namespace API_Spotify.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UsuarioId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
 
                     b.ToTable("Musicas");
-                });
-
-            modelBuilder.Entity("API_Spotify.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FotoPerfil")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("API_Spotify.Models.Musica", b =>
-                {
-                    b.HasOne("API_Spotify.Models.Usuario", null)
-                        .WithMany("MusicasCurtidas")
-                        .HasForeignKey("UsuarioId");
-                });
-
-            modelBuilder.Entity("API_Spotify.Models.Usuario", b =>
-                {
-                    b.Navigation("MusicasCurtidas");
                 });
 #pragma warning restore 612, 618
         }

@@ -12,5 +12,7 @@ namespace API_Spotify.Context
         public MusicaContext(DbContextOptions<MusicaContext> options) : base(options) { }
 
         public DbSet<Musica> Musicas { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+
     }
 }

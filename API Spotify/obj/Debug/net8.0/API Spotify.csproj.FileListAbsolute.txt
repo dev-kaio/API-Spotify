@@ -1,13 +1,6 @@
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.csproj.AssemblyReference.cache
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.AssemblyInfoInputs.cache
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.AssemblyInfo.cs
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.csproj.CoreCompileInputs.cache
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.sourcelink.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\appsettings.json
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\API Spotify.staticwebassets.runtime.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\API Spotify.exe
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\API Spotify.deps.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\API Spotify.runtimeconfig.json
@@ -153,6 +146,14 @@ C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\runti
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.csproj.AssemblyReference.cache
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.AssemblyInfoInputs.cache
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.AssemblyInfo.cs
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.csproj.CoreCompileInputs.cache
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.sourcelink.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\staticwebassets\msbuild.API Spotify.Microsoft.AspNetCore.StaticWebAssets.props
@@ -167,4 +168,3 @@ C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\refin
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.pdb
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\API Spotify.genruntimeconfig.cache
 C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\obj\Debug\net8.0\ref\API Spotify.dll
-C:\Users\439571624\Documents\APIs\Estudo-APIs\API Spotify\bin\Debug\net8.0\API Spotify.staticwebassets.runtime.json
