@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using API_Spotify.Models;
 using API_Spotify.Context;
+using API_Spotify.DTO;
 
 namespace API_Spotify.Controllers
 {
@@ -25,7 +26,16 @@ namespace API_Spotify.Controllers
         {
             var musica = _context.Musicas.Find(id);
             if (musica is null) return NotFound();
-            return Ok(musica);
+            var musicaComCapa = new
+            {
+                musica.Id,
+                musica.Nome,
+                musica.Album,
+                musica.Artista,
+                CapaBase64 = musica.CapaBase64
+            };
+
+            return Ok(musicaComCapa);
         }
 
         // [HttpPost]
@@ -80,7 +90,6 @@ namespace API_Spotify.Controllers
             var musica = new Musica(
                 id: 0,
                 nome: musicaDto.Nome,
-                duracao: musicaDto.Duracao,
                 artista: musicaDto.Artista,
                 album: musicaDto.Album,
                 audiobase: audiobase,
@@ -123,7 +132,6 @@ namespace API_Spotify.Controllers
             return Ok(musicaBD);
         }
 
-
         //Baixar musga
         [HttpGet("DownloadAudio/{id}")]
         public IActionResult DownloadAudio(int id)
@@ -132,31 +140,59 @@ namespace API_Spotify.Controllers
             if (musica == null) return NotFound();
 
             var bytes = Convert.FromBase64String(musica.AudioBase64);
-            return File(bytes, "audio/mpeg", $"{musica.Nome}.mp3");
+            return File(bytes, "audio/mpeg", $"{musica.Nome} - ${musica.Artista}.mp3");
         }
 
-        // [HttpGet("BuscarPorAlbum/{album}")]
-        // public IActionResult BuscarPorAlbum(string album)
-        // {
-        //     var musicaBD = _context.Musicas.Where(m => m.Album.Contains(album));
-        //     if (musicaBD is null) return NotFound("Álbum não encontrado.");
-        //     return Ok(musicaBD);
-        // }
+        [HttpGet("StreamAudio/{id}")]
+        public IActionResult StreamAudio(int id)
+        {
+            var musica = _context.Musicas.Find(id);
+            if (musica == null) return NotFound();
 
-        // [HttpGet("BuscarPorNome/{nome}")]
-        // public IActionResult BuscarPorNome(string nome)
-        // {
-        //     var musicaBD = _context.Musicas.Where(m => m.Nome.Contains(nome));
-        //     if (musicaBD is null) return NotFound("Álbum não encontrado.");
-        //     return Ok(musicaBD);
-        // }
+            var audioBytes = Convert.FromBase64String(musica.AudioBase64);
+            var stream = new MemoryStream(audioBytes);
 
-        // [HttpGet("BuscarPorArtista/{artista}")]
-        // public IActionResult BuscarPorArtista(string artista)
-        // {
-        //     var musicaBD = _context.Musicas.Where(m => m.Artista.Contains(artista));
-        //     if (musicaBD is null) return NotFound("Álbum não encontrado.");
-        //     return Ok(musicaBD);
-        // }
+            return File(stream, "audio/mpeg", enableRangeProcessing: true);
+        }
+
+
+        [HttpGet("DownloadCapa/{id}")]
+        public IActionResult DownloadCapa(int id)
+        {
+            var musica = _context.Musicas.Find(id);
+            if (musica == null) return NotFound();
+
+            var bytes = Convert.FromBase64String(musica.CapaBase64);
+            return File(bytes, "image/jpeg", $"{musica.Nome}.jpg");
+        }
+
+        [HttpGet("StreamCapa/{id}")]
+        public IActionResult StreamCapa(int id)
+        {
+            var musica = _context.Musicas.Find(id);
+            if (musica == null) return NotFound("Música não encontrada.");
+
+            var imageBytes = Convert.FromBase64String(musica.CapaBase64);
+            var stream = new MemoryStream(imageBytes);
+
+            return File(stream, "image/jpeg", enableRangeProcessing: true);
+        }
+
+
+        [HttpGet("Buscar/{busca}")]
+        public IActionResult BuscarPorNome(string busca)
+        {
+            var musicas = _context.Musicas
+                    .Where(m => m.Nome.Contains(busca) || m.Album.Contains(busca) || m.Artista.Contains(busca))
+                    .Select(m => new MusicaBuscaDTO
+                    {
+                        Id = m.Id,
+                        Nome = m.Nome,
+                        Album = m.Album,
+                        Artista = m.Artista
+                    })
+                    .ToList(); if (musicas is null) return NotFound("Nenhuma música encontrada.");
+            return Ok(musicas);
+        }
     }
 }

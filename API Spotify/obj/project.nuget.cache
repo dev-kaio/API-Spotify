@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4QTOFwUNMis=",
+  "dgSpecHash": "MQRIwo6Jkn4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\API Spotify.csproj",
+  "projectFilePath": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\API Spotify.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\439571624\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\439571624\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

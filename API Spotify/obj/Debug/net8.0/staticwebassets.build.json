@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4BoM2sOLxvVkPGLg+QlGPV5u6ZRcuaLxcfPwGiXQ8bw=",
+  "Hash": "JvQaRT2tpyAu1L01WXfc2RwZ/Nq0jAMmn4Blym1pYoA=",
   "Source": "API Spotify",
   "BasePath": "_content/API Spotify",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API Spotify\\wwwroot",
       "Source": "API Spotify",
-      "ContentRoot": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
       "BasePath": "_content/API Spotify",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\index.html",
       "SourceId": "API Spotify",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
       "BasePath": "_content/API Spotify",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -36,10 +36,48 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\script.js",
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\logo spotify old.png",
       "SourceId": "API Spotify",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
+      "BasePath": "_content/API Spotify",
+      "RelativePath": "logo spotify old.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo spotify old.png"
+    },
+    {
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\logo spotify.png",
+      "SourceId": "API Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
+      "BasePath": "_content/API Spotify",
+      "RelativePath": "logo spotify.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo spotify.png"
+    },
+    {
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\script.js",
+      "SourceId": "API Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
       "BasePath": "_content/API Spotify",
       "RelativePath": "script.js",
       "AssetKind": "All",
@@ -55,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\script.js"
     },
     {
-      "Identity": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\style.css",
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\style.css",
       "SourceId": "API Spotify",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
       "BasePath": "_content/API Spotify",
       "RelativePath": "style.css",
       "AssetKind": "All",

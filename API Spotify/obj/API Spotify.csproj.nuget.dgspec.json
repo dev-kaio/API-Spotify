@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\API Spotify.csproj": {}
+    "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\API Spotify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\API Spotify.csproj": {
+    "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\API Spotify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\API Spotify.csproj",
+        "projectUniqueName": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\API Spotify.csproj",
         "projectName": "API Spotify",
-        "projectPath": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\API Spotify.csproj",
+        "projectPath": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\API Spotify.csproj",
         "packagesPath": "C:\\Users\\439571624\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\439571624\\Documents\\APIs\\Estudo-APIs\\API Spotify\\obj\\",
+        "outputPath": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\439571624\\AppData\\Roaming\\NuGet\\NuGet.Config"

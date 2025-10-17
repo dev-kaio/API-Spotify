@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify Real</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body></body>
-  <script src="script.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Real</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="logo spotify.png" alt="logo spotify" width="150px" height="150px">
+
+      <div id="busca" style="display: flex; justify-content: center;">
+        <input id="pesquisa"
+          style="background-color: rgba(25, 25, 25, 1); color: grey; border-radius: 100px; border: none; padding: 15px;"
+          type="text" placeholder="O que você quer ouvir?">
+        <button id="buscar"
+          style="background: none; font-size:x-large; border: none; cursor: pointer; color: grey;">Buscar</button>
+      </div>
+
+      <ul>
+        <li><a href="">Entrar</a></li>
+        <li><a href="">Registrar</a></li>
+        <!--Futura foto de perfil-->
+        <img src="" alt="pfp" style="display: none; border-radius: 100px; width: 80px; height: 80px;">
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="musicas">
+      <ul id="listaMusicas"></ul>
+    </div>
+
+    <div id="modal" style="display: none;">
+      <img src="logo spotify.png" width="200px" height="200px" alt="logo">
+      <form action="" id="form-modal">
+        <br>
+        <input type="text" id="login" placeholder="Email ou Usuário">
+        <br><br>
+        <input type="password" id="senha" placeholder="Senha">
+        <br>
+        <div class="btns">
+          <button type="submit">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+
 </html>
