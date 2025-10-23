@@ -81,11 +81,53 @@ input {
     color: #000000;
 }
 
-ul {
+#listaMusicas {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-li{
+#liMusica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+audio {
+    margin-bottom: 5%;
+    width: 200px;
+    /* ajusta o tamanho */
+    background-color: transparent;
+    /* remove fundo branco */
+    border: none;
+    outline: none;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg);
+    /* deixa controles escuros */
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: transparent;
+    /* tira fundo */
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #1db954;
+    /* verde estilo Spotify */
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+    /* opcional: remove contador */
+}
+
+#btnDownload {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
 }

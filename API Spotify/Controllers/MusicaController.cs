@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using API_Spotify.Models;
 using API_Spotify.Context;
 using API_Spotify.DTO;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace API_Spotify.Controllers
 {
@@ -38,6 +39,9 @@ namespace API_Spotify.Controllers
             return Ok(musicaComCapa);
         }
 
+        [HttpGet]
+        public IActionResult Get() => Ok(_context.Musicas);
+        
         // [HttpPost]
         // public IActionResult Post([FromBody] Musica musica)
         // {
