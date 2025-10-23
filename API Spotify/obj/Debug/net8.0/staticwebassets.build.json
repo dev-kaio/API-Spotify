@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JvQaRT2tpyAu1L01WXfc2RwZ/Nq0jAMmn4Blym1pYoA=",
+  "Hash": "EAchHTcpSi3iK3EAltsngg0BKoGTWNCRN62nai1IV5w=",
   "Source": "API Spotify",
   "BasePath": "_content/API Spotify",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\login.html",
+      "SourceId": "API Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\",
+      "BasePath": "_content/API Spotify",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
       "Identity": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\logo spotify old.png",

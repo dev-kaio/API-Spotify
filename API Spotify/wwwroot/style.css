@@ -95,6 +95,11 @@ input {
     border-bottom: 1px solid black;
 }
 
+#liMusica > img{
+    width: 125px;
+    height: 125px;
+}
+
 audio {
     margin-bottom: 5%;
     width: 200px;

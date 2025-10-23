@@ -1,5 +1,6 @@
 const input = document.getElementById("pesquisa");
 const lista = document.getElementById("listaMusicas");
+const audios = [];
 
 // Função para atrasar a busca (debounce)
 function debounce(fn, delay) {
@@ -36,6 +37,17 @@ async function buscarMusicas(busca) {
 
       const audio = document.createElement("audio");
       audio.controls = true;
+
+      audio.addEventListener("play", () => {
+        audios.forEach((a) => {
+          if (a !== audio && !a.paused) {
+            a.pause();
+            a.currentTime = 0;
+          }
+        });
+      });
+
+      audios.push(audio);
 
       const source = document.createElement("source");
       source.src = `http://localhost:5022/api/Musica/StreamAudio/${musica.id}`;

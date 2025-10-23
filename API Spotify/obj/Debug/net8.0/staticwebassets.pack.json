@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
       "Id": "C:\\Users\\439571624\\Documents\\API-Spotify\\API Spotify\\wwwroot\\logo spotify old.png",
       "PackagePath": "staticwebassets\\logo spotify old.png"
     },
